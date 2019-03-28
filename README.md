@@ -49,7 +49,7 @@ Risk is the intersection of assets, threats, and vulnerabilities
 - Asset:  
 An asset is what we’re trying to protect
 
-3. What is IAM and why it is been used?  
+3. What is IAM and why it is been used?   
    IAM is Identity Access Management used to segreagate roles and responsibilities within an organization. It is a critical piece in security. It help in maintaining Access level security and privileges
 
 ## Security in general
