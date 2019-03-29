@@ -81,7 +81,7 @@ https://www.netsparker.com/blog/web-security/dom-based-cross-site-scripting-vuln
 - How to combat SQL injections  
    Use paramterized queries and stored procedures
 
-2. There is rare scenario when an interviewer would ask this, I came across this in later stages of few interviews, thought of mentioning:
+2. There would be rare scenarios when an interviewer would ask these, I came across the followings in later stages of few interviews, thought of mentioning:
 - What is XXE (XML External Entities)
 - What is SSRF (Server Side Request forgery)  
   Could be used to pivot into the internal network
@@ -146,5 +146,3 @@ Python tips:
 https://www.codementor.io/sheena/essential-python-interview-questions-du107ozr6  
 AWS User Guide:  
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html  
-
-
