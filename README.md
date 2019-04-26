@@ -99,7 +99,7 @@ https://www.netsparker.com/blog/web-security/dom-based-cross-site-scripting-vuln
 - Difference between Public key cryptography and Asymmtric key cryptography: Both are same *Tricky Question*
 - Modes in Cryptography (Eg. EBC, CBC, etc)
 - During Data Compression and Encrytion what happens first compression or encryption  
-  Compression happens first since the entropy (spread) of randomness in data is low, thus compression could be high, thus it is advantageous to first compress then encrypt.
+  Compression happens first, since the entropy (spread) of randomness in data is low, thus higher compression could be achievable, thus it is advantageous to first compress then encrypt.
 - Difference between Encryption, Encoding, Hashing and Obfuscation  
 https://danielmiessler.com/study/encoding-encryption-hashing-obfuscation/ 
  - What is Rainbow-table: *Briefly it is a collection of precomputed hashes*
