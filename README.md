@@ -66,6 +66,7 @@ An asset is what we’re trying to protect
 - OWASP Top 10
 - What is XSS (Cross-site Scripting)
 - How to combat XSS: *Briefly use appropriate input validation*
+  - Look for CSP (Content-Security-Policy) Header
 - Different types of XSS: 
    *Reflected, Stored and DOM-based*
 - What are sources and sinks in DOM which could lead to XSS:  
@@ -79,6 +80,7 @@ https://www.netsparker.com/blog/web-security/dom-based-cross-site-scripting-vuln
 - How to combat CSRF:  
    Use Anti-CSRF Tokens  
    Use same-origin policy  
+   Usage of Referrer header
 - What is HTML/ URL Encoding
 - What are types of Injections: *SQL, Command, OS*
 - How to combat SQL injections  
