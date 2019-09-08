@@ -86,7 +86,13 @@ https://www.netsparker.com/blog/web-security/dom-based-cross-site-scripting-vuln
 - How to combat SQL injections  
    Use paramterized queries and stored procedures
 
-2. There would be rare scenarios when an interviewer would ask these, I came across the followings in later stages of few interviews, thought of mentioning:
+2. Check for headers which helps in providing security (Check the Urls and go throught the content, it would help in building your fundamentals):   
+- CSP (Content-Security Policy) [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy]
+- CORS (Cross-Origin Resource Sharing) [https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS]
+- Same-Origin policy [https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy]
+- 
+
+3. There would be rare scenarios when an interviewer would ask these, I came across the followings in later stages of few interviews, thought of mentioning:
 - What is XXE (XML External Entities)
 - What is SSRF (Server Side Request forgery)  
   Could be used to pivot into the internal network
