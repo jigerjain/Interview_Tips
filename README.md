@@ -159,3 +159,5 @@ Python tips:
 https://www.codementor.io/sheena/essential-python-interview-questions-du107ozr6  
 AWS User Guide:  
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html  
+SMB and Samba insight:
+https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
