@@ -82,6 +82,8 @@ https://www.netsparker.com/blog/web-security/dom-based-cross-site-scripting-vuln
    Use same-origin policy  
    Usage of Referrer header
 - What is HTML/ URL Encoding
+- Is HTTP protocol stateless?  
+   HTTP is inherently stateless protocol however server uses cookies to make it stateless
 - What are types of Injections: *SQL, Command, OS*
 - How to combat SQL injections  
    Use paramterized queries and stored procedures
