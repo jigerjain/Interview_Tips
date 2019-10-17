@@ -64,7 +64,9 @@ An asset is what we’re trying to protect
 
 1. Common Question:
 - OWASP Top 10
-- What is XSS (Cross-site Scripting)
+- What is XSS (Cross-site Scripting)  
+- Practice XSS at: [https://xss-game.appspot.com/]  
+
 - How to combat XSS: *Briefly use appropriate input validation*
   - Look for CSP (Content-Security-Policy) Header
 - Different types of XSS: 
