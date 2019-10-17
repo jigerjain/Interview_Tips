@@ -65,14 +65,13 @@ An asset is what we’re trying to protect
 1. Common Question:
 - OWASP Top 10
 - What is XSS (Cross-site Scripting)  
-- Practice XSS at: [https://xss-game.appspot.com/]  
-
-- How to combat XSS: *Briefly use appropriate input validation*
+  - Practice XSS at: [https://xss-game.appspot.com/]  
+  - How to combat XSS: *Briefly use appropriate input validation*
   - Look for CSP (Content-Security-Policy) Header
-- Different types of XSS: 
-   *Reflected, Stored and DOM-based*
-- What are sources and sinks in DOM which could lead to XSS:  
-https://www.netsparker.com/blog/web-security/dom-based-cross-site-scripting-vulnerability/
+  - Different types of XSS: 
+     *Reflected, Stored and DOM-based*
+  - What are sources and sinks in DOM which could lead to XSS:  
+    [https://www.netsparker.com/blog/web-security/dom-based-cross-site-scripting-vulnerability/]
 - What is CSRF 
    *This is the sweetest question which every other interviewer would love to ask*  
    *Quick Tip:* Be brief, if asked then only explain the whole story   
