@@ -95,13 +95,11 @@ https://www.netsparker.com/blog/web-security/dom-based-cross-site-scripting-vuln
 
 3. There would be rare scenarios when an interviewer would ask these, I came across the followings in later stages of few interviews, thought of mentioning:
 
-- What is XXE (XML External Entities)?
-  XML external entity injection (also known as XXE) is a web security vulnerability that allows an attacker to interfere with an application's processing of XML data. It often allows an attacker to view files on the application server filesystem, and to interact with any backend or external systems that the application itself can access.
+- What is XXE (XML External Entities)?  
+  XML external entity injection (also known as XXE) is a web security vulnerability that allows an attacker to interfere with an application's processing of XML data. It often allows an attacker to view files on the application server filesystem, and to interact with any backend or external systems that the application itself can access.  
     Check this out [https://portswigger.net/web-security/xxe]
     E.g: 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
-    <stockCheck><productId>&xxe;</productId></stockCheck>
+   `` <?xml version="1.0" encoding="UTF-8"?>    <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>     <stockCheck><productId>&xxe;</productId></stockCheck> ```
 
 In some situations, an attacker can escalate an XXE attack to compromise the underlying server or other backend infrastructure, by leveraging the XXE vulnerability to perform server-side request forgery (SSRF) attacks.
 - What is SSRF (Server Side Request forgery)  
@@ -160,8 +158,8 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html
 
 
 ## References
-Learning Resource:
-https://portswigger.net/web-security/
+Learning Resource:  
+https://portswigger.net/web-security/  
 OWASP Top 10:  
 https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf  
 Infosec Interview Questions:  
