@@ -84,7 +84,7 @@ An asset is what we’re trying to protect
    Usage of Referrer header
 - What is HTML/ URL Encoding
 - Is HTTP protocol stateless?  
-   HTTP is inherently stateless protocol however server uses cookies to make it stateless
+   HTTP is inherently stateless protocol however server uses cookies to make it stateful
 - What are types of Injections: *SQL, Command, OS*
 - How to combat SQL injections  
    Use paramterized queries and stored procedures
