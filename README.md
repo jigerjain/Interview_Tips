@@ -118,7 +118,9 @@ In some situations, an attacker can escalate an XXE attack to compromise the und
 ## Network Security
 - Difference between Symmetric and Asymmetric cryptography
 - Difference between Public key cryptography and Asymmtric key cryptography: Both are same *Tricky Question*
-- Modes in Cryptography (Eg. EBC, CBC, etc)
+- Modes in Cryptography (Eg. EBC, CBC, etc)  
+- What is Perfect Forward Secrecy  
+Simply put, PFS’s primary job is to make sure that in the event of the private key of a server being compromised, an attacker will not be able to decrypt any previous TLS communications. Perfect Forward Secrecy is possible by using the Diffie-Hellman ephemeral key exchange, which provides new keys for every session and is valid as long as the session is active.  
 - Cipher suite insight:  
   Ex: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256  
   https://scotthelme.co.uk/https-cheat-sheet/  
