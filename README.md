@@ -125,7 +125,7 @@ External host: http://hacker.com/evil.dtd
 ```
 Ref: [https://phonexicum.github.io/infosec/xxe.html]
 
-- What is SSRF (Server Side Request forgery)  
+- What is SSRF (Server Side Request forgery)  attack
   Could be used to pivot into the internal network
 - How to secure 3-tier web architecture
 - What is Kerberos
