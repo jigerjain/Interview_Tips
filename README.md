@@ -90,7 +90,8 @@ An asset is what we’re trying to protect
    Use paramterized queries and stored procedures
 
 2. Check for headers which helps in providing security (Check the Urls and go throught the content, it would help in building your fundamentals):   
-- CSP (Content-Security Policy) [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy]
+- CSP (Content-Security Policy) [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy]  
+  [https://www.html5rocks.com/en/tutorials/security/content-security-policy/]
 - CORS (Cross-Origin Resource Sharing) [https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS]
 - Same-Origin policy [https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy]
 
