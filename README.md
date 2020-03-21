@@ -186,6 +186,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html
 
 ## References
 Learning Resource:  
+https://regexone.com/ (Regular Expressions are must!)   
 https://portswigger.net/web-security/  
 OWASP Top 10:  
 https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf  
